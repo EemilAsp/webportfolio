@@ -187,7 +187,7 @@
   height: 15px;
   transition: 0.8s ease;
   position: absolute;
-  background-color: #1f2235;
+  background-color: black;
 }
 
 .skill_parent span {
@@ -275,3 +275,9 @@
     width: 100%;
   }
 }
+
+  @media only screen and (max-width: 466px) {
+    .resume_heading span{
+      font-size: 12px;
+    }
+  }

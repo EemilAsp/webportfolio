@@ -67,7 +67,7 @@ function Particle() {
                         width: 1,
                     },
                     collisions: {
-                        enable: true,
+                        enable: false,
                     },
                     move: {
                         directions: "none",
@@ -78,6 +78,7 @@ function Particle() {
                         random: false,
                         speed: 2,
                         straight: false,
+                        bounce: false,
                     },
                     number: {
                         density: {
