@@ -15,7 +15,7 @@ export default function About(props) {
 
   const SCREEN_CONST = {
     description:
-      "Data analytics M.Sc. student at LUT University. Future professional with business digitalization and data-oriented management with comprehensive programming and data analytics knowledge. Recognized for ability to work under pressure, learn quickly and develop ideas outside the box.",
+      "Data analytics M.Sc. student at LUT University. Future professional in business digitalization and data-oriented management with comprehensive programming and data analytics knowledge. Recognized for ability to work under pressure, learn quickly and develop ideas outside the box.",
     highlights: {
       bullets: [
         "Analyzing and visualizing data",
