@@ -55,12 +55,12 @@ export default function Resume(props) {
     { skill: "SQL", ratingPercentage: 75 },
     { skill: "PostgreSQL", ratingPercentage: 65 },
     { skill: "Excel and VBA", ratingPercentage: 90 },
-    { skill: "PowerBi", ratingPercentage: 85 },
+    { skill: "PowerBI", ratingPercentage: 85 },
   ];
 
   const projectDetails = [
     {
-      title: "Portfolio Website",
+      title: "Portfolio Website project",
       duration: { toDate: "2022" },
       description:
         "Portfolio project website to showcase all my details and achievements in one place.",
@@ -88,7 +88,7 @@ export default function Resume(props) {
     <div className="resume_screen_container" key="education">
       <Resume
         heading={"LUT University"}
-        subHeading={"Master of Sciene, Data-analytics in Decision Making"}
+        subHeading={"Master of Science, Data-analytics in Decision Making"}
         fromDate={"2023"}
         toDate={"2026"}
       />
@@ -155,7 +155,7 @@ export default function Resume(props) {
         ))}
       </div>,
 
-      <div className="resume_screen_container" key="projects">
+      <div className="resume_screen_container projects_container" key="projects">
         {projectDetails.map((projectDetails, index) => (
           <Resume
             key={index}

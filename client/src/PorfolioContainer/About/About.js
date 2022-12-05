@@ -26,7 +26,7 @@ export default function About(props) {
         "SQL and PostgreSQL",
         "2x TIMES Local Qualification Winner"
       ],
-      heading: "Here are a few highlights:",
+      heading: "Here's a few highlights:",
     },
   };
 
