@@ -16,7 +16,7 @@ router.post("/contact", (req, res) => {
     port: 465,
     auth: {
       user: "eemil.aspholm@gmail.com",
-      pass: process.env.REACT_APP_API_KEY,
+      pass: "uawmcegarvjpjsut",
     },
   });
 
