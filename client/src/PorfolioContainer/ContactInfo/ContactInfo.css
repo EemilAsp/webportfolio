@@ -1,0 +1,173 @@
+.main_container{
+    min-height: 100vh;
+}
+.central_form{
+    max-width: 1100px;
+    padding: 10px;
+    display: flex;
+    border-radius: 12px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0px 20px -2px white;
+}
+
+.central_form h2{
+    color: black;
+    letter-spacing: 0.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_form{
+    max-width: 380px;
+    margin: 0 auto;
+}
+.back_form .img_back{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.img_back h4 {
+    color: black;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.back_form .img_back img{
+    opacity: 0.75;
+    border-radius: 10px;
+    width: 100%;
+}
+.central_form form{
+    width: auto;
+    display: flex;
+    color: black;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -52px;
+    background-color: white;
+    border-radius: 12px;
+}
+form p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    letter-spacing: 0.4rem;
+    font-family: "Poppins Bold"; 
+}
+form label{
+    margin-bottom: 5px;
+    color: black;
+    letter-spacing: 0.2rem;
+}
+
+form input, textarea{
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0);
+    outline: none;
+    background-color: #e6e6e699;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-top: 22px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+textarea:focus{
+    border-color: black;
+    border: 4px solid rgba(0,0,0,0);
+    background-color: rgb(225, 225, 225);
+}
+
+input:focus{
+    border-color: black;
+    border: 4px solid rgba(0,0,0,0);
+    background-color: rgb(225, 225, 225);
+}
+
+
+form button{
+    margin-top: 15px;
+    padding: 5px;
+    outline: none;
+    width: 160px;
+    border: 2px solid;
+    font-size: 18px;
+    border-radius: 19px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;    
+}
+
+.fa-linkedin-square{
+    color: black;
+    font-size: 50px;
+    padding: 8px;
+    padding-left: 0px;
+}
+
+.fa-github{
+    color: black;
+    font-size: 50px;
+    padding: 8px;
+    padding-left: 0px;
+}
+
+form button:hover{
+    background-color: rgb(31, 31, 31);
+    transition: 1s;
+    border: 2px solid black;
+}
+
+.img_back{
+    flex: 1;
+    align-self: center;
+    margin-right: 20px;
+}
+
+
+form{
+    flex: 0.9;
+}
+
+button .load{
+    width: 100%;
+}
+
+button .load img{
+    width: 60px;
+    color: green;
+}
+
+
+
+.col i{
+    padding: 7px;
+}
+.col i:hover{
+    transform: scale(1.5);
+}
+@media screen and (min-width: 940px){
+    .back_form{
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .img_back{
+        flex: 1;
+        align-self: center;
+        margin-right: 20px;
+    }
+    form{
+        flex:0.9;
+    }
+}
+
+
+
