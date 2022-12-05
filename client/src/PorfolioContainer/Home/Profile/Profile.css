@@ -164,6 +164,22 @@
     .profile_details{
         width: 90%;
     }
+
+    .fa-linkedin-square{
+        color: royalblue;
+        font-size: 50px;
+        padding: 8px;
+        padding-left: 0px;
+    }
+    
+    .fa-github{
+        color: white;
+        font-size: 50px;
+        padding: 8px;
+        padding-left: 0px;
+        border-radius: 2px;
+        border-color: black;
+    }
 }
 
 
