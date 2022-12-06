@@ -32,7 +32,7 @@ function Particle() {
                         value: "#000000",
                     },
                 },
-                fpsLimit: 140,
+                fpsLimit: 120,
                 interactivity: {
                     events: {
                         onClick: {
@@ -50,7 +50,7 @@ function Particle() {
                             quantity: 4,
                         },
                         repulse: {
-                            distance: 200,
+                            distance: 100,
                             duration: 0.4,
                         },
                     },
@@ -63,7 +63,7 @@ function Particle() {
                         color: "#ffffff",
                         distance: 150,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.25,
                         width: 1,
                     },
                     collisions: {
@@ -83,9 +83,9 @@ function Particle() {
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            area: 600,
                         },
-                        value: 80,
+                        value: 50,
                     },
                     opacity: {
                         value: 0.5,
